@@ -1,0 +1,17 @@
+{
+  "gitzone": {
+    "module": {
+      "githost": "gitlab.com",
+      "gitscope": "uptimelink",
+      "gitrepo": "interfaces",
+      "shortDescription": "TypeScript interface for the uptime.link API and modules",
+      "npmPackagename": "@uptimelink/interfaces",
+      "license": "MIT",
+      "projectDomain": "uptime.link"
+    }
+  },
+  "npmci": {
+    "npmGlobalTools": [],
+    "npmAccessLevel": "public"
+  }
+}
