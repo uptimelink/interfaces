@@ -1,3 +1,5 @@
-import * as plugins from './interfaces.plugins';
+import * as pagechecks from './ul-interfaces.pagechecks';
 
-export let standardExport = 'Hi there! :) This is an exported string';
+export {
+  pagechecks
+};
