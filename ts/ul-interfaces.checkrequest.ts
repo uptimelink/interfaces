@@ -22,7 +22,7 @@ export interface IRequest_PageCheck_PWA  {
 }
 
 export interface IRequest_PageCheck_Function  {
-  method: 'checkPwa';
+  method: 'function';
   request: {
     intervalMs: number,
     domain: string;
