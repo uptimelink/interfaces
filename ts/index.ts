@@ -1,5 +1,5 @@
-import * as pagechecks from './ul-interfaces.pagechecks';
+import * as checkRequests from './ul-interfaces.checkrequest';
 
 export {
-  pagechecks
+  checkRequests as pagechecks
 };

@@ -20,7 +20,9 @@
     "tslint": "^5.11.0",
     "tslint-config-prettier": "^1.15.0"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@apiglobal/typedrequest-interfaces": "^1.0.10"
+  },
   "files": [
     "ts/**/*",
     "ts_web/**/*",
