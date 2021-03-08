@@ -1,5 +1,3 @@
-import * as checkRequests from './ul-interfaces.checkrequest';
+import * as requests from './requests';
 
-export {
-  checkRequests as pagechecks
-};
+export { requests };

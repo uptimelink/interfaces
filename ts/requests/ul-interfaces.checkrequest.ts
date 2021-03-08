@@ -1,11 +1,11 @@
-import * as plugins from './ul-interfaces.plugins';
+import * as plugins from '../ul-interfaces.plugins';
 
 export type TCheckResultStatus = 'ok' | 'not ok' | 'timed out';
 
-export interface IRequest_PageCheck_PWA  {
+export interface IRequest_PageCheck_PWA {
   method: 'pwa';
   request: {
-    intervalMs: number,
+    intervalMs: number;
     domain: string;
   };
   response: {
@@ -21,10 +21,10 @@ export interface IRequest_PageCheck_PWA  {
   };
 }
 
-export interface IRequest_PageCheck_Function  {
+export interface IRequest_PageCheck_Function {
   method: 'function';
   request: {
-    intervalMs: number,
+    intervalMs: number;
     domain: string;
     functionDef: string;
   };
@@ -41,7 +41,7 @@ export interface IRequest_PageCheck_Function  {
 export interface IRequest_PageCheck_Assumption {
   method: 'assumption';
   request: {
-    intervalMs: number,
+    intervalMs: number;
     domain: string;
     title?: string;
     statusCode?: string;
