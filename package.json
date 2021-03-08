@@ -1,6 +1,6 @@
 {
   "name": "@uptimelink/interfaces",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "private": false,
   "description": "TypeScript interface for the uptime.link API and modules",
   "main": "dist_ts/index.js",
